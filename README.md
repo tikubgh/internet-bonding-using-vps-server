@@ -1,6 +1,6 @@
 True Internet bonding joint two ISP internet speed example 50mbps (ISP-1) & 50 mbps (ISP-2) equals 100mbps output using single connection IDM full 100 mbps bandwidth.
 
-It's in two parts server part vps instalaltion and client part rasberry-pi openwrt installation,
+It's in two parts server part vps instalaltion and client part Raspberry-pi openwrt installation,
 
 Installation server: check file "Debian-vps-script" & "AMD-x86-64-ubuntu-22.04-vps-script"
 
