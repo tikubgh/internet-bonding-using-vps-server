@@ -7,11 +7,13 @@ sudo apt update && wget -O debian.sh https://raw.githubusercontent.com/Ysurac/op
 3. Errors Fixes: 
 Cleanup: sudo apt autoremove
 
+Sources errors: 
+sudo sed -i 's|https://ports.ubuntu.com/ubuntu-ports|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/bionic-backports.list
+sudo sed -i 's|https://ports.ubuntu.com/ubuntu-ports|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/bionic-universe.list
+
 Openvpn issues: sed -i 's/--default-release install /install /g' debian.sh
 (What this does: Replaces --default-release install with install only where it appears without an argument)
 
 run script: KERNEL="6.6" sudo ./debian.sh
 
-Sources errors: 
-sudo sed -i 's|https://ports.ubuntu.com/ubuntu-ports|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/bionic-backports.list
-sudo sed -i 's|https://ports.ubuntu.com/ubuntu-ports|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/bionic-universe.list
+
