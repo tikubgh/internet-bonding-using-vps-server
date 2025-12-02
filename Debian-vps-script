@@ -1,0 +1,1 @@
+sudo apt update && wget https://raw.githubusercontent.com/Ysurac/openmptcprouter-vps/refs/heads/develop/debian9-x86_64.sh && chmod +x debian9-x86_64.sh && KERNEL="6.6" sudo ./debian9-x86_64.sh
