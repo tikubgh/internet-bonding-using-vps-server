@@ -9,6 +9,6 @@ Installation client: Download Edited Openwrt ( Flash using BalenaEtcher = https:
 RaspberryPi 4B link = https://bit.ly/44Cfkdf
 RaspberryPi 5 Link = https://bit.ly/4rwfoVO
 
-Insert keys to http://192.168.100.1/ > System > MPTCP > Settings Wizard > Add New Server ,  Change "Multipath TCP" WAN-1 to Master & WAN-2 to enabled > Save & Apply > Reboot...
+Insert keys to http://192.168.100.1/ > System > MPTCP > Settings Wizard > Add New Server > put client Key, username, vps ip address ,  Change "Multipath TCP" WAN-1 to Master & WAN-2 to enabled > Save & Apply > Reboot...
 
 All Thanks for the vps ready script & openwrt edited os by "Ysurac" maintained by open-mptcp-router repos.
