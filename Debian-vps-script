@@ -27,7 +27,7 @@ df -h (disk space check)
 apt install htop
 htop (ram , cpu check)
 
-++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Error Fixes: 
 
 /etc/shadowsocks-libev/manager.json: No such file or directory — 
