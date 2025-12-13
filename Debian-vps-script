@@ -5,7 +5,7 @@ Install by github: Debian 13
 sudo apt update && wget https://raw.githubusercontent.com/Ysurac/openmptcprouter-vps/refs/heads/develop/debian9-x86_64.sh && chmod +x debian9-x86_64.sh && KERNEL="6.6" sudo ./debian9-x86_64.sh
 
 
-Install by Webserver:
+Install by Webserver: Debian 12
 wget -O - https://www.openmptcprouter.com/server/debian-x86_64.sh | KERNEL="6.12" sh
 or
 wget https://www.openmptcprouter.com/server/debian-x86_64.sh && KERNEL="6.12" sh debian-x86_64.sh
