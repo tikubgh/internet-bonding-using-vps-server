@@ -36,4 +36,5 @@ Below command This creates the missing directory and empty file, allowing the po
 
 mkdir -p /etc/shadowsocks-libev && touch /etc/shadowsocks-libev/manager.json && systemctl restart omr-admin
 
+reboot
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
