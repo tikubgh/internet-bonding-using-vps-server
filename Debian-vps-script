@@ -8,11 +8,11 @@ Finish after installation "reboot" then ssh port chnaged to: 65222
 !!! Keys are in /root/openmptcprouter_config.txt !!!
 
 
-Install by git clone: Debian 12, 13
+Alternative Install by git clone: Debian 12, 13
 sudo apt update && apt install git && git clone https://github.com/Ysurac/openmptcprouter-vps.git && cd openmptcprouter-vps && chmod +x debian9-x86_64.sh && sudo ./debian9-x86_64.sh
 
 
-Install by Webserver: Debian 12
+Alternative Install by Webserver: Debian 12
 wget -O - https://www.openmptcprouter.com/server/debian-x86_64.sh | KERNEL="6.12" sh
 or
 wget https://www.openmptcprouter.com/server/debian-x86_64.sh && KERNEL="6.12" sh debian-x86_64.sh
