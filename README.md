@@ -1,5 +1,5 @@
 True Internet Bonding: 50 Mbps + 50 Mbps = 100 Mbps Single Connection
-- <span style="white-space: nowrap;">True Internet bonding joins two ISP speeds (e.g., ISP-1 50 Mbps + ISP-2 50 Mbps) into 100 Mbps output on a single connection. Full 100 Mbps bandwidth works even in IDM for non-resumable downloads.</span>
+- <span style="white-space: nowrap;">True Internet bonding joins two ISP speeds (e.g., 1st ISP 50 Mbps + 2nd ISP 50 Mbps) merge into 100 Mbps output on a single connection. Full 100 Mbps bandwidth works even in IDM for non-resumable downloads.</span>
 
 ## 🚀 Use Cases
 
